@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 const faqs = [
   {
-    question: "How safe is my money with Jhaveri Valura?",
-    answer: "Your funds are securely held in regulated custodian banks in India. Jhaveri Valura is fully compliant with SEBI regulations, utilizing bank-grade encryption to ensure maximum security for your investments and personal data."
+    question: "How safe is my money with Elevate Financial Services Valura?",
+    answer: "Your funds are securely held in regulated custodian banks in India. Elevate Financial Services Valura is fully compliant with SEBI regulations, utilizing bank-grade encryption to ensure maximum security for your investments and personal data."
   },
   {
     question: "Are there any hidden charges for opening an account?",
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     question: "Do you offer personalized advisory services?",
-    answer: "Jhaveri Valura is primarily an execution platform. However, we provide powerful AI-driven insights, curated baskets, and deep research tools to help you make your own informed investment decisions."
+    answer: "Elevate Financial Services Valura is primarily an execution platform. However, we provide powerful AI-driven insights, curated baskets, and deep research tools to help you make your own informed investment decisions."
   }
 ];
 

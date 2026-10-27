@@ -34,13 +34,13 @@ const CoreExpertise = () => {
       <div className="mx-auto max-w-[1320px]">
         {/* Section Header (Matching Techlair layout) */}
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8, ease: "easeOut" }} className="mb-12 max-w-3xl mx-auto flex flex-col items-center text-center">
-          <div className="mb-4 flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.25em] text-[#0054A1]">
+          <div className="mb-4 flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.25em] text-[#1D2050]">
             <svg
               width="14"
               height="14"
               viewBox="0 0 24 24"
               fill="none"
-              className="text-[#0054A1]"
+              className="text-[#1D2050]"
             >
               <path
                 d="M12 2L15.5 8.5L22 12L15.5 15.5L12 22L8.5 15.5L2 12L8.5 8.5L12 2Z"
@@ -51,7 +51,7 @@ const CoreExpertise = () => {
           </div>
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-[#3C3C43] leading-[1.08]">
             End-to-End Wealth <br className="hidden sm:inline" />
-            <span className="text-[#0054A1]">Capabilities</span>
+            <span className="text-[#1D2050]">Capabilities</span>
           </h2>
         </motion.div>
 
@@ -85,7 +85,7 @@ const CoreExpertise = () => {
                       </span>
                       <span
                         className={`text-sm font-semibold transition-transform duration-300 ${
-                          isActive ? "text-[#0054A1] rotate-90" : "text-gray-300"
+                          isActive ? "text-[#1D2050] rotate-90" : "text-gray-300"
                         }`}
                       >
                         →

@@ -82,7 +82,7 @@ const metrics = [
                                 <path d="M 46 24 L 54 20 L 62 24 L 54 28 Z" fill="#E9F5FA" stroke="#0B4D5E" strokeWidth="0.5" strokeLinejoin="round" />
                             </g>
                         </svg>
-                        <span className="absolute -bottom-8 opacity-0 group-hover/item:opacity-100 transition-opacity duration-300 text-xs font-medium text-[#0054A1] whitespace-nowrap bg-[#E9F5FA] px-3 py-1 rounded-full shadow-sm pointer-events-none z-10">
+                        <span className="absolute -bottom-8 opacity-0 group-hover/item:opacity-100 transition-opacity duration-300 text-xs font-medium text-[#1D2050] whitespace-nowrap bg-[#ECEDFA] px-3 py-1 rounded-full shadow-sm pointer-events-none z-10">
                             US Stocks
                         </span>
                     </div>
@@ -135,7 +135,7 @@ const metrics = [
                                 </clipPath>
                             </defs>
                         </svg>
-                        <span className="absolute -bottom-8 opacity-0 group-hover/item:opacity-100 transition-opacity duration-300 text-xs font-medium text-[#0054A1] whitespace-nowrap bg-[#E9F5FA] px-3 py-1 rounded-full shadow-sm pointer-events-none z-10">
+                        <span className="absolute -bottom-8 opacity-0 group-hover/item:opacity-100 transition-opacity duration-300 text-xs font-medium text-[#1D2050] whitespace-nowrap bg-[#ECEDFA] px-3 py-1 rounded-full shadow-sm pointer-events-none z-10">
                             Global ETFs
                         </span>
                     </div>
@@ -175,7 +175,7 @@ const metrics = [
             </svg>
         ),
         title: "418+",
-        description: "Jhaveri Authorised Persons, pan-India",
+        description: "Elevate Financial Services Authorised Persons, pan-India",
     },
     {
         icon: (
@@ -238,13 +238,13 @@ export default function Metrics() {
 
                 {/* Section Header (Matching Core Expertise) */}
                 <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.8, ease: "easeOut" }} className="mb-12 max-w-3xl mx-auto flex flex-col items-center text-center">
-                    <div className="mb-4 flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.25em] text-[#0054A1]">
+                    <div className="mb-4 flex items-center justify-center gap-2 text-xs font-bold uppercase tracking-[0.25em] text-[#1D2050]">
                         <svg
                             width="14"
                             height="14"
                             viewBox="0 0 24 24"
                             fill="none"
-                            className="text-[#0054A1]"
+                            className="text-[#1D2050]"
                         >
                             <path
                                 d="M12 2L15.5 8.5L22 12L15.5 15.5L12 22L8.5 15.5L2 12L8.5 8.5L12 2Z"
@@ -255,7 +255,7 @@ export default function Metrics() {
                     </div>
                     <h2 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-[#3C3C43] leading-[1.08]">
                         Scale and Trust <br className="hidden sm:inline" />
-                        <span className="text-[#0054A1]">by the numbers</span>
+                        <span className="text-[#1D2050]">by the numbers</span>
                     </h2>
                 </motion.div>
 

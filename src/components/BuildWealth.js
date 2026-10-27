@@ -24,7 +24,7 @@ const BuildWealth = () => {
         <p className="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-500 font-medium">
           US equities, USD income notes, and Pre-IPO deals — all unified in one global dashboard.
         </p>
-        <button className="mt-8 rounded-full border-2 border-[#EE396A] bg-transparent px-8 py-3.5 text-[#EE396A] font-bold hover:bg-[#EE396A] hover:text-white transition-all text-sm md:text-base shadow-sm">
+        <button className="mt-8 rounded-full border-2 border-[#E90C29] bg-transparent px-8 py-3.5 text-[#E90C29] font-bold hover:bg-[#E90C29] hover:text-white transition-all text-sm md:text-base shadow-sm">
           See all features
         </button>
 
@@ -69,8 +69,8 @@ const BuildWealth = () => {
           {/* Central Card Mockup */}
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 w-[300px] md:w-[340px] bg-white rounded-3xl border border-gray-100 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] p-6 text-left hover:shadow-[0_25px_70px_-15px_rgba(0,0,0,0.15)] transition-shadow duration-500">
             <div className="flex items-center gap-4 mb-5">
-              <div className="w-12 h-12 bg-[#0054A1]/10 rounded-xl flex items-center justify-center relative">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-[#0054A1]">
+              <div className="w-12 h-12 bg-[#1D2050]/10 rounded-xl flex items-center justify-center relative">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="text-[#1D2050]">
                   <path d="M12 2L2 7L12 12L22 7L12 2Z" fill="currentColor" />
                   <path d="M2 17L12 22L22 17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                   <path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -83,8 +83,8 @@ const BuildWealth = () => {
             </div>
 
             <div className="mb-6">
-              <div className="text-2xl font-bold text-[#0054A1]">16.32% <span className="text-[11px] text-gray-400 font-normal">3Y annualised</span></div>
-              <div className="text-sm font-semibold text-[#0054A1]">+0.55% <span className="text-gray-400 font-normal text-[11px]">1D</span></div>
+              <div className="text-2xl font-bold text-[#1D2050]">16.32% <span className="text-[11px] text-gray-400 font-normal">3Y annualised</span></div>
+              <div className="text-sm font-semibold text-[#1D2050]">+0.55% <span className="text-gray-400 font-normal text-[11px]">1D</span></div>
             </div>
 
             {/* SVG Chart Line */}
@@ -92,7 +92,7 @@ const BuildWealth = () => {
               <polyline
                 points="0,80 20,85 40,70 60,75 80,50 100,55 120,40 140,25 150,30 160,10 180,25 200,5"
                 fill="none"
-                stroke="#0054A1"
+                stroke="#1D2050"
                 strokeWidth="2.5"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -104,7 +104,7 @@ const BuildWealth = () => {
               />
               <defs>
                 <linearGradient id="chartGradient" x1="0" x2="0" y1="0" y2="1">
-                  <stop offset="0%" stopColor="#0054A1" />
+                  <stop offset="0%" stopColor="#1D2050" />
                   <stop offset="100%" stopColor="white" stopOpacity="0" />
                 </linearGradient>
               </defs>
@@ -116,7 +116,7 @@ const BuildWealth = () => {
 
             <div className="grid grid-cols-2 gap-3 mt-2">
               <button className="py-2.5 rounded-full border border-gray-200 text-sm font-semibold text-[#3C3C43] hover:border-gray-300 hover:bg-gray-50 transition-all shadow-sm">Compare</button>
-              <button className="py-2.5 rounded-full bg-[#EE396A] text-white text-sm font-semibold hover:bg-[#D62955] transition-all shadow-sm">Invest Now</button>
+              <button className="py-2.5 rounded-full bg-[#E90C29] text-white text-sm font-semibold hover:bg-[#C20A23] transition-all shadow-sm">Invest Now</button>
             </div>
           </div>
         </div>

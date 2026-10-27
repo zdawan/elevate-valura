@@ -2,12 +2,12 @@ import React from 'react';
 
 const ContactUs = () => {
   return (
-    <section className="bg-[#1C3345] px-6 sm:px-10 py-24 lg:py-32 text-white relative">
+    <section className="bg-[#1D2050] px-6 sm:px-10 py-24 lg:py-32 text-white relative">
       <div className="mx-auto max-w-[1200px] grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-8 items-center">
 
         {/* Left Content */}
         <div className="max-w-xl">
-          <div className="inline-flex items-center gap-2 bg-[#2D5676]/60 text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1.5 rounded-md mb-6">
+          <div className="inline-flex items-center gap-2 bg-[#2D2F6A]/60 text-white text-[11px] font-bold uppercase tracking-wider px-3 py-1.5 rounded-md mb-6">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2L15.5 8.5L22 12L15.5 15.5L12 22L8.5 15.5L2 12L8.5 8.5L12 2Z" />
             </svg>
@@ -19,7 +19,7 @@ const ContactUs = () => {
           </h2>
 
           <p className="text-[#9CB3C9] text-lg md:text-xl font-medium mb-10 leading-relaxed max-w-lg">
-            Leave your details and a Jhaveri × Valura specialist takes it from there. The entire process — KYC, account funding, and first trade — takes under 30 minutes.
+            Leave your details and a Elevate Financial Services × Valura specialist takes it from there. The entire process — KYC, account funding, and first trade — takes under 30 minutes.
           </p>
 
           <div className="space-y-5">
@@ -88,12 +88,12 @@ const ContactUs = () => {
                 </select>
               </div>
 
-              <button className="w-full bg-[#EE396A] hover:bg-[#D62955] transition-colors text-white font-bold text-[15px] py-4 rounded-lg mt-4 flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(238,57,106,0.39)]">
+              <button className="w-full bg-[#E90C29] hover:bg-[#C20A23] transition-colors text-white font-bold text-[15px] py-4 rounded-lg mt-4 flex items-center justify-center gap-2 shadow-[0_4px_14px_rgba(233,12,41,0.39)]">
                 Contact us <span>→</span>
               </button>
 
               <p className="text-[10px] text-[#6B7A8A] text-center mt-6 leading-relaxed px-2">
-                By submitting this form you agree to our Terms of Service and Privacy Policy. Jhaveri × Valura.AI is regulated through GIFT IFSC. Investments are subject to market risks. Please read all product documents carefully.
+                By submitting this form you agree to our Terms of Service and Privacy Policy. Elevate Financial Services × Valura.AI is regulated through GIFT IFSC. Investments are subject to market risks. Please read all product documents carefully.
               </p>
             </form>
           </div>

@@ -22,12 +22,12 @@ const partners = [
   {
     textIcon: "418+",
     label: "Authorised Persons",
-    heightClass: "text-3xl sm:text-4xl lg:text-5xl font-black text-[#0054A1]",
+    heightClass: "text-3xl sm:text-4xl lg:text-5xl font-black text-[#1D2050]",
   },
   {
     textIcon: "IN",
     label: "PAN-India presence",
-    heightClass: "text-3xl sm:text-4xl lg:text-5xl font-black text-[#0054A1]",
+    heightClass: "text-3xl sm:text-4xl lg:text-5xl font-black text-[#1D2050]",
   },
   {
     src: "/aam.png",

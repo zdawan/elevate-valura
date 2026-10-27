@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-black text-[#A1A1AA] overflow-hidden relative font-sans">
 
       {/* Top Marquee Strip */}
-      <div className="w-full bg-[#0054A1] overflow-hidden py-6 border-y border-[#0054A1]/80">
+      <div className="w-full bg-[#1D2050] overflow-hidden py-6 border-y border-[#1D2050]/80">
         <div className="flex whitespace-nowrap animate-marquee">
           {/* We repeat the content to create a seamless scroll */}
           {[...Array(6)].map((_, i) => (
@@ -93,7 +93,7 @@ const Footer = () => {
               </button>
             </div>
             <p className="text-xs text-[#52525B] leading-relaxed">
-              You'll receive occasional emails from Jhaveri. You always have the choice to unsubscribe within every email.
+              You'll receive occasional emails from Elevate Financial Services. You always have the choice to unsubscribe within every email.
             </p>
           </div>
         </div>
@@ -104,7 +104,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div className="max-w-2xl">
             <p className="text-xs md:text-sm text-[#A1A1AA] mb-2 font-medium">
-              © 2025 Jhaveri Securities × Valura.AI Pvt. Ltd. All rights reserved.
+              © 2025 Elevate Financial Services × Valura.AI Pvt. Ltd. All rights reserved.
             </p>
             <p className="text-[11px] md:text-xs text-[#52525B] leading-relaxed">
               Investments through this platform are subject to market risk. GIFT IFSC regulated. Read all product-related documents carefully before investing.
@@ -128,7 +128,7 @@ const Footer = () => {
 
         {/* Massive Text */}
         <div className="absolute bottom-[-10%] md:bottom-[-20%] font-black text-[#15151a] text-[130px] sm:text-[180px] md:text-[240px] lg:text-[280px] tracking-tighter leading-none whitespace-nowrap z-10">
-          JHAVERI
+          Elevate
         </div>
       </div>
 

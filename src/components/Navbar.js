@@ -10,7 +10,7 @@ const Navbar = () => {
         <a href="/" className="flex items-center">
           <img
             src="/wordmark.png"
-            alt="Jhaveri Securities - Powered By Valura.Ai"
+            alt="Elevate Financial Services - Powered By Valura.AI"
             className="h-11 sm:h-14 md:h-16 w-auto object-contain transition-all duration-200"
           />
         </a>
@@ -53,7 +53,7 @@ const Navbar = () => {
           </a>
           <a
             href="#start"
-            className="inline-flex items-center gap-2 rounded-full bg-[#EE396A] px-5 py-2.5 text-sm font-semibold text-white transition-all duration-200 hover:bg-[#D62955] hover:shadow-md shadow-sm"
+            className="inline-flex items-center gap-2 rounded-full bg-[#E90C29] px-5 py-2.5 text-sm font-semibold text-white transition-all duration-200 hover:bg-[#C20A23] hover:shadow-md shadow-sm"
           >
             <span>Get Started</span>
             <svg
@@ -147,7 +147,7 @@ const Navbar = () => {
               <a
                 href="#start"
                 onClick={() => setMobileMenuOpen(false)}
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#EE396A] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#D62955] shadow-sm"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#E90C29] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#C20A23] shadow-sm"
               >
                 <span>Get Started</span>
                 <svg
