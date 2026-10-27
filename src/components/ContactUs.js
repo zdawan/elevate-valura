@@ -24,7 +24,6 @@ const ContactUs = () => {
 
           <div className="space-y-5">
             {[
-              "Paperless KYC in minutes",
               "Start from $3,000 — invest in fractions",
               "No foreign bank account needed",
               "Tax & LRS reporting handled for you"
