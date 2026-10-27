@@ -1,12 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const stats = [
-  { value: "41b+", label: "Authorised Persons" },
-  { value: "30 yrs", label: "of research-led wealth advice" },
-  { value: "★★★★★", label: "Morningstar 5+ track record", isStar: true },
-];
-
 const Hero = () => {
   return (
     <section className="relative flex min-h-[calc(100vh-80px)] sm:min-h-screen flex-col justify-between overflow-hidden pt-6 sm:pt-10" style={{ background: '#F0F6FF' }}>
